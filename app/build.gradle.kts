@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinfloatinglabel"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinfloatinglabel"
         minSdk = 24
